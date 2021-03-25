@@ -3,6 +3,10 @@ import { slideContainer } from "./imageCreation.js";
 import { spans } from "./dotContainer.js";
 const content = document.querySelector("#content");
 
+const title = document.createElement("h1");
+title.innerText = "Cat Slider";
+
+content.appendChild(title);
 content.appendChild(slideContainer());
 content.appendChild(spans());
 
@@ -32,8 +36,8 @@ const prev = () => {
   init(currentSlide);
 };
 
-document.querySelector(".next").addEventListener("click", next);
-document.querySelector(".prev").addEventListener("click", prev);
+// document.querySelector(".next").addEventListener("click", next);
+// document.querySelector(".prev").addEventListener("click", prev);
 
 setInterval(() => {
   next();

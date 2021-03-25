@@ -34,17 +34,17 @@ const slideContainer = () => {
   const slideContainer = document.createElement("div");
   slideContainer.classList.add("slide-Container");
 
-  const prev = document.createElement("a");
-  prev.classList.add("prev");
-  prev.href = "#";
-  prev.title = "Previous";
-  prev.innerText = "PREVIOUS";
+  // const prev = document.createElement("a");
+  // prev.classList.add("prev");
+  // prev.href = "#";
+  // prev.title = "Previous";
+  // prev.innerText = "PREVIOUS";
 
-  const next = document.createElement("a");
-  next.classList.add("next");
-  next.href = "#";
-  next.title = "Next";
-  next.innerText = "NEXT";
+  // const next = document.createElement("a");
+  // next.classList.add("next");
+  // next.href = "#";
+  // next.title = "Next";
+  // next.innerText = "NEXT";
 
   const imageDiv1 = document.createElement("div");
   imageDiv1.classList.add("slide");
@@ -89,8 +89,8 @@ const slideContainer = () => {
   slideContainer.appendChild(imageDiv6);
   slideContainer.appendChild(imageDiv7);
 
-  slideContainer.appendChild(prev);
-  slideContainer.appendChild(next);
+  // slideContainer.appendChild(prev);
+  // slideContainer.appendChild(next);
 
   return slideContainer;
 };

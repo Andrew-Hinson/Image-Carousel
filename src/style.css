@@ -2,6 +2,7 @@
 body {
   background-color: cornflowerblue;
   height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
 }
 @keyframes fade {
   0% {
@@ -11,8 +12,10 @@ body {
     opacity: 1;
   }
 }
-#title {
-  color: coral;
+h1 {
+  margin: 0 auto;
+  color: cornsilk;
+  text-align: center;
 }
 * {
   padding: 0;
@@ -30,10 +33,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 500px;
+  height: 400px;
+  max-width: 300px;
   margin: auto;
   position: relative;
-  background-color: cornsilk;
 }
 .slide-Container .slide {
   display: none;
@@ -65,12 +68,6 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
-.slide-container .prev {
-  left: 2px;
-}
-.slide-container .next {
-  right: 2px;
-}
 .dots-container {
   display: flex;
   justify-content: center;
@@ -87,5 +84,5 @@ body {
   background-color: #dfd6ce;
 }
 .dots-container .dot.active {
-  border: 2px solid green;
+  border: 2px solid #333;
 }
