@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+body {
+  background-color: cornflowerblue;
+}
+#content {
+  width: 100%;
+  height: 100%;
+  color: aqua;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.carouselPic {
+  width: 300px;
+  height: 400px;
+}
+#title {
+  color: coral;
+}
